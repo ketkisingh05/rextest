@@ -1,0 +1,1112 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(26,26,26,0)
+}
+body {
+    margin: 0;
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #1a1a1a;
+    text-align: left;
+    background-color: #fff;
+    padding-top: 5.074rem;
+}
+@media screen and (max-width: 1024px) {
+    body{
+      padding-top: 12.175rem;
+    }
+  }
+  ul{
+    list-style-type: none;
+}
+button.btn {
+    border-radius: 0;
+    border: 2px solid #000000; 
+    font-weight: bold;
+  }
+table{
+    border-collapse: collapse;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+.navigation-bar {
+    background-color: #fff;
+    transition: background-color 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  .navbar {
+    background-color: white;
+    display: flex;
+    color: #000000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #cecece;
+    justify-content: space-between;
+  }
+  .navbar-image {
+    margin-left: 6rem;
+  }
+  
+  .navbar-img {
+    width: 12.5rem;
+  }
+  
+  .navbar-items {
+    display: flex;
+    align-items: center;
+    margin-right: 6rem;
+  }
+  
+  .navbar-list {
+    color: #000000!important;
+    display: flex;
+    margin-bottom: 0;
+  }
+  
+  .navbar-list li {
+    margin-right: 1rem;
+  }
+  
+  .navbar-buttons button {
+    margin-left: 1rem;
+  }
+  
+  .navigation-bar .navbar-list li a {
+    text-decoration: none; 
+    color: #000000; 
+    margin: 10px 0;
+    font-family: 'Harmattan', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .navbar-button-sign-up{
+    border: 2px solid #000000; 
+    font-weight: bold;
+  }
+  .navbar-button-join-now{
+    border: 2px solid #0C5993!important; 
+    font-weight: bold;
+    color: #0C5993;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .navbar-button-join-now:hover {
+    border: 2px solid #0C5993; 
+    background-color: #0C5993;
+    color: #fff;
+}
+
+  @media screen and (max-width: 1024px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .navbar-image {
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    .navbar-items {
+      flex-direction: column;
+      align-items: center;
+      margin-right: 0;
+    }
+  
+    .navbar-buttons {
+      margin-top: 1rem;
+    }
+  
+    .navbar-buttons button {
+      margin: 0.5rem;
+    }
+  }
+  .release-music{
+    background-image: url("./images/nightclub-crowd.jpg");
+    height: 37.5rem;
+    width: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.release-music-banner{
+    padding-top: 8.125rem;
+    padding-left: 6rem;
+    color: #fff;
+    
+}
+.hm{
+    font-size: 4.5rem;
+}
+.app-images-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.app-images{
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+.app-img{
+    flex-basis: 10.625rem;
+    max-width: 10.625rem;
+    padding: 1rem;
+}
+.app-images-icons{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.app-images-button{
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+@media screen and (min-width: 768px) {
+    .global-music {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+        padding-top: 1.25rem;
+        padding-bottom: 0.625rem;
+    }
+
+    .global-music-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .global-music-content {
+        padding-top: 5rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .global-music {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+        padding-top: 1.25rem;
+        padding-bottom: 0.625rem;
+    }
+
+    .global-music-img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .global-music-content {
+        padding-top: 2rem;
+        text-align: center;
+    }
+}
+.access-insights {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.access-insights-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: initial;
+}
+
+.access-insights-img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .access-insights {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .access-insights-content {
+        padding-top: 2rem;
+        text-align: center;
+    }
+}
+.get-signed {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.get-signed-img {
+    width: 100%;
+    height: 100%;
+}
+
+.get-signed-content {
+    padding-top: 110px;
+}
+
+@media screen and (max-width: 767px) {
+    .get-signed {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding-top: 2rem;
+    }
+
+    .get-signed-content {
+        padding-top: 2rem;
+        text-align: center;
+    }
+}
+.own-music {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+.own-music-img {
+    width: 100%;
+    height: auto;
+}
+
+.own-music-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.own-music-button {
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .own-music {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+    }
+
+    .own-music-content {
+        text-align: initial;
+    }
+
+    .own-music-button {
+        text-align: initial;
+    }
+}
+.share-royalties {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+.share-royalties-img {
+    width: 100%;
+    height: 100%;
+}
+
+.share-royalties-content {
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .share-royalties {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding-top: 2rem;
+    }
+
+    .share-royalties-content {
+        padding-top: 2rem;
+        text-align: center;
+    }
+}
+.testimonial{
+    background-color: #060047;
+    height: 400px;
+    width: 100%;
+}
+.car{
+    font-size: 3rem;
+    color:#fff;
+    font-weight: 400;
+}
+.testimonial {
+    background-color: #060047;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .car {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 400;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none;
+    }
+  
+    .carousel-inner {
+      padding: 0 10px;
+    }
+  }
+  .global-network {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .global-network-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .global-network-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .global-network {
+      align-items: center;
+    }
+    
+    .global-network-list {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .global-network-button {
+      text-align: center;
+    }
+  }
+  .carousel{
+    background-color: #25AAE1;
+    color: white;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-sign-up {
+    background-image: url("./images/ukulele-on-blue-background.jpg");
+    height: 500px;
+    width: 100%;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .last-signup-heading {
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    color: #fff;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1rem;
+  }
+  
+  .form-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .last-sign-up h2 {
+    color: white;
+  }
+  
+  .email-signup {
+    width: 30rem;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .last-sign-up {
+      height: auto;
+    }
+    
+    .last-signup-heading {
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    
+    .form-sign-up {
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 1rem;
+    }
+    
+    .email-signup {
+      width: 100%;
+      margin-right: 0;
+    } 
+    
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    
+}
+
+.footer-a{
+    color:white;
+}
+a.footer-social-icons{
+    color:white;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-family: 'Harmattan', sans-serif;
+    font-size: 1rem;
+}
+.footer-p{
+    color: white;
+    font-size: 0.75rem;
+}
+.footer-links{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links a{
+    text-decoration: none;
+}
+.footer-logo-img{
+    width: 200px;
+    
+    padding-bottom: 10px;
+}
+.footer-img{
+    margin-bottom: 10px;
+}
+.footer-social{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:400px;
+}
+.pricing-release-music {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),url("./images/pricing-release-img.jpg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pricing-hm {
+    font-size: 5.5rem;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .pricing-release-music {
+      flex-direction: column;
+      height: auto;
+    }
+  }
+  .pricing-card-heading{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    margin-top: 1rem!important;
+  }
+  
+  .pricing-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 3px 12px 0 rgba(99, 99, 99, .3);
+    margin: 1rem;
+    width: 40%;
+  }
+  
+  .pricing-head {
+    padding: 1.875rem 1.25rem;
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.45;
+    border-bottom: 1px solid #cecece;
+  }
+  
+  .pricing-content {
+    flex-grow: 1;
+    padding: 1.875rem 0.9375rem 1.25rem;
+  }
+  
+  .pricing-price {
+    margin-bottom: 1.875rem;
+    font-size: 3.125rem;
+    font-weight: 500;
+    letter-spacing: -.04063rem;
+  }
+  
+  .pricing-description {
+    margin-bottom: 1.25rem;
+    font-size: 1.625rem;
+    line-height: 1.4;
+    letter-spacing: -.04063rem;
+  }
+  
+  .pricing-button {
+    padding: 1.25rem 1.25rem 3.125rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .pricing-box {
+      width: 90%;
+    }
+  }
+  .compare-table{
+    margin-top: 6.25rem;
+    margin-bottom: 5.25rem;
+    padding: 5.25rem 0;
+    background-color: #0C5993;
+    color: white;
+}
+.compare{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+.compare-header{
+    text-align: center;
+}
+.compare-head{
+    font-size: 2.5rem;
+}
+.compare-t thead{
+    text-align: center;
+}
+.compare-t tbody tr{
+    border-bottom: 1px solid #9f9f9f;
+}
+.compare-t tbody th{
+    font-size: 1.625rem;
+    padding: 0.9375rem 0;
+    font-weight: 500;
+}
+.th-label{
+    margin-bottom: 0.9375rem;
+    font-size: 1.625rem;
+    font-weight: 600;
+}
+.compare-t thead th{
+    padding: 1.25rem 0.625rem;
+}
+.compare-t tbody td{
+    text-align: center;
+}
+.compare-t{
+    width: 100%;
+}
+
+.pricing-space{
+    margin-top: 4rem;
+}
+.sell-ym {
+    background-image: url(./images/dj-mixes-dance-music.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .sell-ym-head {
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 1rem;
+  }
+  
+  .sell-ym-sub-h {
+    padding: 0.8rem;
+  }
+  
+  .sell-ym-apps {
+    margin-top: 8.375rem;
+    margin-bottom: 3.125rem;
+    width: 100%;
+    padding-top: 2rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .sell-ym-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sell-ym-li {
+    flex: 0 0 auto;
+    padding: 0;
+    text-align: center;
+    margin: 0 1rem;
+  }
+  
+  .sell-ym-img {
+    max-width: 6rem;
+    max-height: 1.5rem;
+  }
+  
+  .sell-ym-img-vev {
+    width: 6rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sell-ym-head {
+      text-align: center;
+    }
+  
+    .sell-ym-sub-h {
+      text-align: center;
+    }
+  
+    .sell-ym-apps {
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+    }
+  
+    .sell-ym-li {
+      margin: 0.5rem;
+    }
+  }
+  .subhead {
+    padding-top: 6.25rem;
+    padding-right: 4.5rem;
+    padding-left: 4.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .subhead-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0.625rem;
+  }
+  
+  .subhead-p {
+    text-align: center;
+    font-weight: 400;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .subhead {
+      padding: 2rem;
+      text-align: center;
+    }
+  
+    .subhead-p {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+  .subhead-br{
+    width: 50%;
+    border: none;
+    border-top: 1px solid #cecece;
+    margin: 0 auto;
+    opacity: 1;
+}
+.stores{
+    padding-top: 5.25rem;
+}
+.stores-heading{
+    text-align: center;
+    font-size: 3.125rem;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -.025rem;
+    margin-bottom: 0.5rem;
+}
+.stores-h{
+    margin-bottom: 3.5rem;
+}
+.stores-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+.stores-list-item {
+    flex: 0 0 auto;
+    padding: 0;
+    text-align: center;
+    margin: 0 1rem;
+    background-color: #f5f5f5;  
+}
+.stores-list-img{
+    width: 12rem;
+    height: 6rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    filter: grayscale(100%) brightness(0%) contrast(100%);; 
+    transition: filter 0.3s;
+}
+.stores-list-item img:hover{
+    filter: grayscale(0%) brightness(100%) contrast(100%); 
+}
+.stores-list-button{
+    text-align: center;
+    margin: 1rem;
+    padding-top: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .stores-list{
+        flex-direction: column;
+        margin: 0;
+    }
+    .stores-list-item {
+        flex: 0 0 auto;
+        max-width: none;
+        margin: 0.5rem 0;
+    }
+}
+.img-text {
+    padding-top: 5.25rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+  }
+  
+  .img-text-img1,
+  .img-text-img2,
+  .img-text-img3 {
+    height: 32.5rem;
+    width: 29.375rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .img-text-img1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/woman-holds-a-large-musical-instrument.jpg);
+  }
+  
+  .img-text-img2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/woman-holds-a-large-musical-instrument\ copy.jpg);
+  }
+  
+  .img-text-img3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/vintage-sitar-with-decorative-inlay.jpg);
+  }
+  
+  .img-text-cd {
+    padding: 3.75rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+  }
+  
+  .img-text-cd h3 {
+    font-weight: 700;
+  }
+  
+  .img-text-bold {
+    color: #0C5993;
+  }
+  
+  .img-text-cd p {
+    font-size: 1.125rem;
+    line-height: 1.65rem;
+  }
+  
+  .img-text-index {
+    color: #0C5993;
+    width: 5.25rem;
+    height: 5.25rem;
+    margin-bottom: 2.125rem;
+    font-size: 2.25rem;
+    line-height: 4.75rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    border: 5px solid #0C5993;
+    border-radius: 50%;
+  }
+  @media screen and (max-width: 768px) {
+    .img-text {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .img-text-img1,
+    .img-text-img2,
+    .img-text-img3 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .img-text-cd {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 1.5rem;
+      text-align: center;
+    }
+  
+    .img-text-cd h3 {
+      font-size: 1.5rem;
+    }
+  }
+  .distribution{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+.distribution-head h3,h2{
+    text-align: center;
+    padding: 0.2rem;
+}
+.distribution-icons{
+    padding: 2rem 4rem;
+    display: flex;
+}
+.distribution-icons-box{
+    text-align: center;
+}
+.distribution-container{
+    display: flex;
+}
+.dis-img{
+    width: 100px;
+    height: 100px;
+}
+.distribution-icon{
+    padding-bottom: 1rem;
+}
+.distribution-icons-box h3{
+    padding-bottom: 0.5rem;
+}
+.dis-button{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .distribution-container{
+        flex-direction: column;
+    }
+    .distribution-icons {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+  }
+  .support-form-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .support-form-wrapper {
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .support-form {
+    padding: 20px;
+    background-color: #D4EEF8;
+  }
+  
+  .form-row {
+    margin-bottom: 20px;
+  }
+  
+  .form-row label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="email"],
+  .form-row textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    text-align: center;
+  }
+  .form-row-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-row-center .form-submit {
+    margin-top: 20px;
+  }
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  input[type="email"]:focus {
+    border: 3px solid #555;
+  }
+  textarea:focus{
+    border: 3px solid #555;
+  }
+  .submit-button {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 0;
+    padding: 10px 20px;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    font-weight: 600;
+  }
+  
+  .submit-button:hover {
+    background-color: black;
+    border-color: black;
+    color: white;
+  }
+  .navbar-list a.active {
+    color:#25AAE1 !important;
+  }
+  
